@@ -44,3 +44,74 @@
   font-weight: 600;
   margin-top: 10px;
 }
+
+/* Explanation Section Styles */
+
+.web-dev{
+  width: 946px;
+  height: 1233px;
+  margin: 154px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 90px;
+}
+
+.explanation h1{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin: 24px 0;
+  text-align: center;
+}
+
+.exp-title{
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.exp-content{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.explanation p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.exp-button{
+  margin: 32px 0px;
+  width: 171px;
+  height: 47px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.exp-sec-1,.exp-sec-2,.exp-sec-3{
+  display: flex;
+  gap: 200px;
+}
+
+.exp-container{
+  width: 477px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.exp-sec-2{
+  flex-direction: row-reverse;
+}
